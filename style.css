@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Jersey10-Regular';
+    src: url('fonts/Jersey10-Regular.ttf');
+}
+
+p{
+    font-family: "Jersey10-Regular";
+}
+
+.example{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: line-through;
+    text-indent: 15px;
+    word-break: normal;
+}
+
+.example1{
+    font-size: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: red;
+    background-color: blue;
+}

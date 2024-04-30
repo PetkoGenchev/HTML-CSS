@@ -3,8 +3,11 @@ h2{
 }
 
 
-block{
+.block{
+    display: block;
     background-color: orange;
+    width: 500px;
+    
 }
 
 
@@ -19,4 +22,14 @@ label{
 
 .inline-heading{
     display: inline;
+}
+
+.half-container{
+    background-color: lightcoral;
+    width: 50%;
+}
+
+.half-text{
+    background-color: lightgreen;
+    width: 50%;
 }

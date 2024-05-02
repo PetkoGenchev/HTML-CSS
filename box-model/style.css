@@ -33,3 +33,15 @@ label{
     background-color: lightgreen;
     width: 50%;
 }
+
+
+
+.secondBlockExample{
+    background-color: plum;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 80px;
+}
+
+.secondInlineExample{
+    background-color: lightgreen;
+}

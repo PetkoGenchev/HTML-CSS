@@ -40,8 +40,24 @@ label{
     background-color: plum;
     padding: 10px 10px 10px 10px;
     margin-bottom: 80px;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 .secondInlineExample{
     background-color: lightgreen;
+}
+
+.card{
+    background-color:  lightblue;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 300px;
+    border: 2px solid blue;
+
+}
+
+/* We use border box to make sure the outside box stays the same */
+.card.fixed{
+    box-sizing: border-box;
 }

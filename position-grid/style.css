@@ -1,0 +1,32 @@
+.card{
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    /* width: 50%; */
+}
+
+.thumbnail{
+    /* width: 50%; */
+    /* height: 360px; */
+    aspect-ratio: 1 / 1;
+}
+
+.thumbnail_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    padding: 12px 18px;
+    text-align: center;
+}
+
+.cards{
+
+    /* WHEN WE USE GRID, WIDTH MUST BE FULL */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 32px;
+}

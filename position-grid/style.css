@@ -2,20 +2,20 @@
     height: 500px;
     border: 2px solid black;
     border-radius: 6px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #fff;
     /* width: 50%; */
 }
 
 .thumbnail{
-    /* width: 50%; */
-    /* height: 360px; */
+    width: 50%;
+    height: 360px;
     aspect-ratio: 1 / 1;
 }
 
 .thumbnail_img{
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: 30%;
     object-fit: cover;
 }
 
@@ -31,3 +31,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 16px 32px;
 }
+
+
+/* .img{
+    width: 300px;
+    float: right;
+    margin-left: 40px;
+} */

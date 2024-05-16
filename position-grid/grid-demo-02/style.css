@@ -40,3 +40,41 @@ body{
     top: 20px;
     left: 20px;
 }
+
+
+/* Absolute Example */
+
+.absolute{
+    background-color: lightgreen;
+    position: relative;
+}
+
+.absolute img{
+    width: 100px;
+
+    /* Position absolute, it does not keep its position in the container*/
+    position: absolute;
+    right: 20px;
+}
+
+.fixed img{   /*It doesn't move*/                                               
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.sticky{
+    background-color: lightsalmon;
+    height: 400px;
+    overflow: auto;
+}
+
+.sticky p{
+    font-size: 32px;
+}
+
+.sticky img{ /*It moves around in the container but not outside of it*/
+    position: sticky;
+    top: 40px;
+}

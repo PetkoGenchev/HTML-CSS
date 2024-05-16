@@ -1,9 +1,0 @@
-.grid_container{
-    display: grid;
-    grid-template-columns: repeat(6, 200px);
-    grid-template-rows: repeat(6, 200px);
-}
-
-.grid_container div{
-    background-color: orange;
-}
